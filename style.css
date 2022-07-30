@@ -124,6 +124,7 @@ main{
 
 .sign_up_sec input{
     padding: 10px 20px;
+    border: none;
 
 }
 
@@ -179,27 +180,28 @@ footer{
     
     .left_left_container{
         text-align: center;
+        align-items: center;
     }
 
     .left_p {
-        width: 275px;
+        width: 470px;
     
 }
 
 .left_left_container h1 {
-    width: 260px;
+    width: 300px;
 }
 
- .sign_up_sec{
+ /* .sign_up_sec{
     width: 300px;
     display: flex;
     flex-direction: column;
     gap:10px
+ } */
+
+ .right_image_container{
+    display: none;
  }
- .learn_more {
-    width: 250px;
-    
-}
 
 .companies_sec p{
     text-align: center;
