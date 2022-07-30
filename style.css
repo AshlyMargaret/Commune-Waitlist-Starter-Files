@@ -1,0 +1,166 @@
+/* css reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;        
+}
+
+/* background color propeties applied to body */
+
+body{
+    background-color: white;
+}
+
+/* reset default css properties of ul li and a  */
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+/* css for container class */
+
+.container{
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+    background-color: #F6F9FE; 
+    
+}
+
+/* css for inner container class */
+
+.inner_container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* css for header section */
+
+header{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn_1{
+    padding: 12px 20px;
+    color: white;
+    background-color: #372865;
+    border-radius: 5px;
+    border: none;
+}
+/* css for nav section */
+
+/* here we set fixed width  or flex-basis(fixed length) to inner flex item for working of justify -content property 
+of inner flex items */
+
+nav{
+    /* width: 400px;  */
+    flex-basis: 400px;     
+    
+}
+
+.nav_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_list a{
+    color: #6D6D6E;
+}
+
+
+/* css for main section */
+
+main{
+    
+    margin-top: 30px;
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+/* css for left_left_container */
+
+.left_left_container{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* css for learn_more class */
+
+.learn_more{
+    max-width: 400px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #372865;
+    color: #AA9FC7;
+}
+
+.p_tag{
+    max-width: 300px;
+}
+
+.a_tag{
+    max-width: 100px;  
+    text-decoration: underline;
+}
+
+.a_tag a{
+    color: #AA9FC7;
+}
+
+.left_left_container h1{
+    width: 400px;
+}
+
+.left_p {
+    width: 600px;
+    color: #6D6D6E;
+    line-height: 1.5rem;
+}
+
+.sign_up_sec input{
+    padding: 10px 20px;
+
+}
+
+.illust_img{
+    width: 300px;
+    height: 300px;
+}
+
+
+.companies_sec{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.companies_sec p{
+    color: #6D6D6E;
+}
+
+.image_container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+footer{
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
