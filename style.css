@@ -209,3 +209,35 @@ footer{
 }
 
 }
+
+@media screen and (max-width: 414px){
+    .learn_more{
+        width: 245px;
+    }
+
+    .left_left_container h1 {
+        width: 270px;
+    }
+
+    .left_p {
+        width: 280px;
+    }
+
+    
+
+    .sign_up_sec input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .sign_up_sec .btn_1{ 
+      width: 100%;
+    }
+    .image_container{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .companies_sec p {
+        text-align: left;
+    }
+}
